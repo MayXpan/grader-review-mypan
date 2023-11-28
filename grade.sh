@@ -42,7 +42,7 @@ then
 fi
 
 java -cp $CPATH org.junit.runner.JUnitCore TestListExamples
-if [ [ $? -eq 0 ] ]
+if [[ $? -eq 0 ]]
 then
     echo 'Test passed'
 else
